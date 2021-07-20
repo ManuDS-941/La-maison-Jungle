@@ -1,0 +1,4 @@
+ Options - Multivues
+    Moteur de réécriture activé
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [QSA,L]
